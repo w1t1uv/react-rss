@@ -1,0 +1,130 @@
+/*base styles start*/
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Exo 2', 'Lato', 'Helvetica Neue', sans-serif;
+  background: #bababa;
+}
+
+/*base styles end*/
+
+/*container styles start*/
+
+.container {
+  padding: 10px;
+}
+
+/*container styles end*/
+
+/*wrapper styles start*/
+
+.wrapper {
+  text-align: center;
+}
+
+/*wrapper styles end*/
+
+.hint {
+  font-size: 15px;
+  color: #929292;
+  font-weight: 900;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto 10px;
+}
+
+/*input styles start*/
+
+.input {
+  background: #929292;
+  color: #d5d5d5;
+  outline: none;
+  border: none;
+  font-size: 25px;
+}
+
+/*input styles end*/
+
+/*button styles start*/
+
+.button {
+  margin-left: 10px;
+  cursor: pointer;
+  background: #929292;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #5e5e5e;
+  color: #d5d5d5;
+  font-size: 23px;
+}
+
+.button:hover {
+  background: #5e5e5e;
+}
+
+/*button styles end*/
+
+/*output section styles start*/
+
+.loading,
+.error {
+  color: #929292;
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.error-button-wrapper {
+  margin: 20px 0 0 0;
+}
+
+.error-button {
+  background-color: #db9294;
+  border: 1px solid #a77576;
+}
+
+.error-button:hover {
+  background-color: #a77576;
+}
+
+.pokemon-wrapper {
+  background: #e0e0e0;
+  width: 50%;
+  margin: 20px auto;
+  padding: 7px;
+  border: 3px solid #929292;
+  border-radius: 10px;
+}
+
+.property {
+  color: #929292;
+  font-weight: 900;
+}
+
+.property-name {
+  font-size: 35px;
+}
+
+.property-height,
+.property-isDefault,
+.property-order,
+.property-weight {
+  font-size: 25px;
+}
+
+/*output section styles end*/
